@@ -55,5 +55,55 @@
    */
 
   // Suppress warnings about == null comparisons.
-  "eqnull": true
+  "eqnull": true,
+  
+  
+  "curly": false,
+  "eqeqeq": false,
+  "immed": false,
+  "latedef": true,
+  "newcap": true,
+  "noarg": true,
+  "sub": true,
+  "undef": true,
+  "boss": true,
+  "globals": {
+    "jQuery": true,
+    "Backbone": true,
+    "_": true,
+    "Marionette": true,
+    "$": true,
+    "slice": true,
+    "throwError": true,
+    "require":true,
+    "Pixlee":true,
+    "NProgress":true,
+    "moment":true,
+    "Routes":true,
+    "Fingerprint":true,
+    "Stripe":true,
+    "gon":true,
+    "Cocktail":true,
+    "console":true,
+    "toastr":true,
+    "html2canvas":true,
+    "Highcharts":true,
+    "__extends":true,
+    "__bind":true,
+    "MarkerClusterer":true,
+    "google":true,
+    "videojs":true,
+    "imagesLoaded":true,
+    "olark":true,
+    "Modernizr":true,
+    "analytics":true,
+    "async":true,
+    "mp_context":true,
+    "easyXDM":true,
+    "iFrameResize":true,
+    "Snap":true,
+    "mina":true
+  
+}
+
 }
